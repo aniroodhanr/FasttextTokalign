@@ -1,0 +1,5 @@
+!pip install transformers torch numpy scipy datasets sacrebleu accelerate bert-score
+!pip uninstall transformers -y
+!pip cache purge
+!pip install transformers==4.46.0
+!pip install fasttext-wheel
